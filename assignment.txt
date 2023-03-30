@@ -1,0 +1,160 @@
+Assignment 1:22-03-2023
+Write instructions for any five projects:
+1.red bus ticket booking for a travel
+2.recharge fast tag for vehicle
+3.ordering groceries in Takkunu Delivery
+4.applying for admission in school
+
+
+
+Project:1
+ TICKET BOOKING FOR A TRAVEL IN RED BUS
+Requirement:
+	Login details of the passenger (after registering in red bus app)
+	Date and time of travel
+	Place of travel
+
+1.show the welcome page as “welcome to red bus”
+     get the login details of the passenger
+     (a)	Display Name of the passenger
+     (b)	Request user to enter the password
+2.validate the details of the passenger
+ 	If
+          yes
+            i.	Request for the date, time and place of the travel
+
+        if
+          yes
+          (a) display the details of the bus and timings
+          (b) display the boarding point and destination
+              validate the details
+            display availability of the seats
+            check the seats based on the availability
+      if  
+         yes
+            i.	request for selection of seats
+              display “select the seats”
+              display the ticket fare
+              connect with payment portal
+              request for payment
+            ii.	complete the payment
+           iii.	display “your ticket is booked”
+
+	else
+           show the error message and ask for the correct login details
+            else
+              return to the login page
+
+
+Project 2: 
+recharge fast tag for vehicles
+requirement: 
+  get the details of the vehicle
+  amount to  be recharged
+ 
+1)	request user to enter the login detail
+   a)	validate the details
+
+   b)	if yes
+                request for name of the vehicle
+                display “enter the name of the vehicle”
+                display “enter the reg no of the vehicle”
+
+   c)	request for the amount to be recharged
+        display “enter the amount to be recharged”
+        display the payment portal
+        request for the credentials
+        complete the payment
+   d)	display “your balance is:”
+
+    else
+      return to login page
+
+project :3
+ordering groceries in Takkunu delivery
+requirements:
+ login details of the customer
+ enter the items
+ complete the payment
+ assign a delivery person
+
+1)	request for login details of the customer
+2)	validate the login details
+    a)	if yes
+      i.	display “select the items:”
+     ii.	display the list of shops within 5 km
+    iii.	check for the availability of the items
+     iv.	display the items in the cart
+      v.	display the total number of items
+     vi.	display the total amount to be paid
+    vii.	display the discount if applicable
+   viii.	request for the coupon code if applicable
+     ix.	request for address and time of delivery
+   
+    b)	validate the address and time of delivery
+	if yes 
+           display “place the order”
+           display “amount to be paid:”
+     c)  check the amount entered
+         if yes
+            connect to the payment portal
+            assign a delivery person
+           display “thankyou for ordering in Takkunu delivery”
+  else
+       display "enter the valid amount"
+
+  else
+       return to the home page
+
+
+project:4
+ APPLYING FOR ADMISSION IN SCHOOL
+requirements: 
+    student registration
+    details of class applying for
+    details of class and school last studied
+
+1)	request for student registration
+display “Name of the student:”
+display “date of birth:”
+display “Admission seeking for class:”
+display “School last studied:”
+display “Class last studied:”
+display “Father name:”
+display “Father occupation:”
+display “Mother name;”
+display “mother occupation:”
+display “enter mobile number:”
+
+check 
+ if 
+   the given credentials are valid
+   display "Thankyou for registering"
+else 
+    display “enter valid credentials:”
+
+check 
+if 
+          the entered credentials are valid
+else
+          return to the registration page
+
+
+
+
+
+
+
+
+
+			
+ 
+
+
+
+
+
+
+ 
+
+
