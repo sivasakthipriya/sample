@@ -5,3 +5,5 @@ the pulling attempt was succesfull feom remote to intellij
 this is try for creating new branch in intellij
 
 nw changes are made in new branch in remote repository and trying to push to local directory using pull command.
+
+pulling attempt succefull in intellij
